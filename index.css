@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin: 0;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(237,237,237,1) 100%);
+}
+header{
+    text-align: center;
+}
+nav{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover{
+     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), /* Підсвічення для ефекту світіння */
+               0 0 15px rgba(120, 120, 120, 0.6);
+}
+
+
+.big-logo{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://learn.logikaschool.com/uploads/student/4630284/6701067e0e4c7.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 220px;
+    background-color: rgb(207, 207, 207, 0.5);
+    padding: 5px;
+}
+
+.con{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    }
+.photo{
+    height: 100%;
+    width: 50%;
+     background-image: url('https://learn.logikaschool.com/uploads/student/4630284/67010678ce678.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}    
+.text{
+    height: 100%;
+    width: 50%;
+}
+.text p{
+    color: aliceblue;
+    font-size: 28px;
+    text-align: justify;
+    padding: 20px 20px 0 20px;
+}
+.con2{
+    height: 100vh;
+    width: 100%;
+}
+.con2 p{
+    color: aliceblue;
+    font-size: 24px;
+    text-align: justify;
+    padding: 5%;
+}
