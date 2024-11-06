@@ -29,36 +29,47 @@ nav a:hover{
 }
 
 
-
-.car1{
-    padding-top: 100px;
+.car1 {
+    padding-top: 50px; /* Трохи зменшено padding */
     display: flex;
     justify-content: center;
+    align-items: center; /* Центрування контенту */
     flex-direction: column;
     width: 100%;
+    max-width: 1200px; /* Встановлено максимальну ширину для зручного перегляду */
+    margin: 0 auto; /* Центрування контенту */
 }
-.car1 img{
-    flex: 1; /* Зображення займе 50% */
-    max-width: 50%;
+
+.car1 img {
+    flex: 1;
+    max-width: 100%; /* Зображення займає всю доступну ширину */
     height: auto;
-    
+    margin: 20px 0; /* Відступ зверху і знизу */
+    border-radius: 10px; /* Додаємо округлені кути для зображення */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Легка тінь для зображення */
 }
 
-
-.big{
+.big {
     font-weight: bold;
     font-size: 24px;
     transition: 0.3s;
+    margin-bottom: 20px; /* Додаємо відступ знизу для зручності читання */
+    text-align: justify; /* Вирівнювання по ширині для рівного вигляду */
 }
-.small{
+
+.small {
+    font-size: 18px; /* Зменшений розмір тексту для невеликих абзаців */
+    margin-bottom: 20px;
+    text-align: justify; /* Вирівнювання по ширині */
     transition: 0.3s;
 }
-.big:hover{
+
+.big:hover {
     text-shadow: 0 0 8px rgba(69, 69, 69, 0.6), /* Підсвічення для ефекту світіння */
                0 0 15px rgba(120, 120, 120, 0.4);
- }
-  
-  .small:hover{
+}
+
+.small:hover {
     text-shadow: 0 0 8px rgba(69, 69, 69, 0.7), /* Підсвічення для ефекту світіння */
                0 0 15px rgba(120, 120, 120, 0.5);
- }
+}

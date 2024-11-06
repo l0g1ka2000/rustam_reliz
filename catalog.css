@@ -34,12 +34,22 @@ nav a:hover{
     padding-top: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
     width: 100%;
 }
-.car1 img{
-    flex: 1; /* Зображення займе 50% */
+.photo {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.photo img{
+    flex: 1;
     max-width: 50%;
     height: auto;
+    transform: scale(1.5);
     
 }
 
